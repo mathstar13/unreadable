@@ -22,8 +22,8 @@ Will output `An encoded string!`
 *chars: The characters the encoder will encode (Otherwise it will just be the same charater. Example: ÷ encoded will be ÷ unless it's in the chars).*
 ```python
 key = generate_key()
-encoded_string = encode('Encoded using a custom key!')
-decoded_string = decode(encoded_string)
+encoded_string = encode('Encoded using a custom key!',key)
+decoded_string = decode(encoded_string,key)
 print(decoded_string)
 ```
 Will output `Encoded using a custom key!`
