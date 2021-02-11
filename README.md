@@ -19,7 +19,7 @@ decoded_string = decode('ZXI5X@>*5*IP]0nX,-+AacsB_"|z}M7-YDxOCK&r^\fd50] 8n>UvH:
 ```
 Will output `An encoded string!`
 #### unreadable.**generate_key**(chars=r'1234567890-=!@#$%^&*()_qwertyuiop\[]asdfghjkl;'+"'"+r'zxcvbnm,./\|QWERTYUIOP{}ASDFGHJKL:"ZXCVBNM<>? ')
-*chars: The characters the encoder will encode (Otherwise it will just be the same charater ex. ÷ encoded will be ÷ unless it's in the chars).*
+*chars: The characters the encoder will encode (Otherwise it will just be the same charater. Example: ÷ encoded will be ÷ unless it's in the chars).*
 ```python
 key = generate_key()
 encoded_string = encode('Encoded using a custom key!')
