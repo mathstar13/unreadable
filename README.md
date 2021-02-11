@@ -1,9 +1,9 @@
 Unreadable is an encode and a decoder.
-### __Installation__
+### __Installation__ ###
 '''
 pip install unreadable
 '''
-### __Usage__
+### __Usage__ ###
 #### unreadable.**encode**(string,key='generate')
 *string: the string you want to encode*
 *key (Optional): the encode key (Can be made with generate_key, more on that later).*
